@@ -1,8 +1,7 @@
-﻿namespace FreelanceJobBoard.DTOs
+﻿namespace FreelanceJobBoard.DTOs;
+
+public class MessageDto
 {
-    public class MessageDto
-    {
-        public int ReceiverId { get; set; }
-        public string Content { get; set; }
-    }
+    public int ReceiverId { get; set; }
+    public string Content { get; set; }
 }
