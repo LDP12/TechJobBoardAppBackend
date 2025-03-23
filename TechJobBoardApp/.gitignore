@@ -1,0 +1,36 @@
+﻿# Rider and JetBrains IDE files
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output directories
+bin/
+obj/
+
+# Visual Studio temporary files (if applicable)
+.vs/
+
+# NuGet packages and cache
+*.nupkg
+.nuget/
+packages/
+
+# Rider local history and caches
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/libraries
+.idea/modules.xml
+
+# Log files
+*.log

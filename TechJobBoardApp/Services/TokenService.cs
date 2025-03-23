@@ -10,16 +10,16 @@ namespace FreelanceJobBoard.Services
 {
     public class TokenService
     {
-        private readonly IConfiguration _configuration;
+        private readonly IConfiguration _Configuration;
 
         public TokenService(IConfiguration configuration)
         {
-            _configuration = configuration;
+            _Configuration = configuration;
         }
 
         public string GenerateToken(int userId, string role)
         {
-            var jwtSettings = _configuration.GetSection("JwtSettings");
+            var jwtSettings = _Configuration.GetSection("JwtSettings");
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]));
 
             var claims = new List<Claim>

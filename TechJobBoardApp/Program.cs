@@ -47,6 +47,7 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+// Use the connection string from configuration (overridden by User Secrets in development)
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
         new MySqlServerVersion(new Version(8, 0, 25))));
@@ -99,7 +100,7 @@ builder.Services.AddAuthorization();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
-        policy.WithOrigins("http://localhost:5173") // Adjust the port to your Vite Server (React)
+        policy.WithOrigins("http://localhost:5173") // Adjust the port to Vite Server (React)
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials()

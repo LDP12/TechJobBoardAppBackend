@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechJobBoardApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6d7a8444bfc4a15402add15fa4e9564e0c1b687")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechJobBoardApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechJobBoardApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

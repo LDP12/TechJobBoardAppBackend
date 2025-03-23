@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "gxZF1XwfLgdk1hd3k6TUl8bEhKHix5CRHjViUKwZ9O8=",
-  "Source": "TechFreelanceJobBoardApp",
-  "BasePath": "_content/TechFreelanceJobBoardApp",
+  "Hash": "znv3p78ubEJP/koxvaYAn067Yt+A/dl/HaYyl40YK08=",
+  "Source": "TechJobBoardApp",
+  "BasePath": "_content/TechJobBoardApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
